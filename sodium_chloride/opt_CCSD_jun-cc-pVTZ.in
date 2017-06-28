@@ -1,0 +1,15 @@
+# -*- mode: python -*-
+
+molecule {
+    Na 0.000 0.000 0.000
+    Cl 0.000 0.000 2.000
+}
+
+set {
+    reference rhf
+    scf_type direct
+    basis jun-cc-pvtz
+    freeze_core false
+}
+
+optimize('ccsd')

@@ -1,0 +1,24 @@
+# -*- mode: python -*-
+
+from __future__ import print_function
+
+memory 2 gb
+
+molecule dimer {
+He           0.000000000000     0.000000000000     0.000
+--
+He           0.000000000000     0.000000000000     3.000
+
+symmetry c1
+units angstrom
+no_reorient
+no_com
+}
+
+set {
+    basis aug-cc-pvdz
+}
+
+energy('sapt2+3(ccd)dmp2')
+
+print_variables()

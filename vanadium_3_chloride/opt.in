@@ -1,0 +1,17 @@
+# -*- mode: python -*-
+
+# V is +3
+# Cl is -1
+molecule {
+    2 5
+    V 0.000 0.000 0.000
+    Cl 0.000 0.000 3.000
+}
+
+set {
+    reference uhf
+    basis def2-sv(p)
+    scf_type direct
+}
+
+optimize('b97-d')

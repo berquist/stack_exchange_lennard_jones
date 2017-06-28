@@ -1,0 +1,1463 @@
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //              Dimer HF             //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:07 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+    There are an even number of electrons - assuming singlet.
+    Specify the multiplicity in the molecule input block.
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE          0.000000000000     0.000000000000     0.000000000000     4.002603254150
+          HE          0.000000000000     0.000000000000     3.250000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      0.39874  C =      0.39874 [cm^-1]
+  Rotational constants: A = ************  B =  11953.85352  C =  11953.85352 [MHz]
+  Nuclear repulsion =    0.651295025956923
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 10
+    Number of basis function: 18
+    Number of Cartesian functions: 18
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         18      18       0       0       0       0
+   -------------------------------------------------------
+    Total      18      18       2       2       2       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.4359097082E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   0:    -5.71142137298737   -5.71142e+00   3.22857e-04 
+   @RHF iter   1:    -5.71140968564124    1.16873e-05   3.81428e-05 
+   @RHF iter   2:    -5.71140978863676   -1.02996e-07   5.26516e-06 DIIS
+   @RHF iter   3:    -5.71140979083827   -2.20150e-09   2.04881e-07 DIIS
+   @RHF iter   4:    -5.71140979084299   -4.72244e-12   2.83085e-08 DIIS
+   @RHF iter   5:    -5.71140979084306   -7.19425e-14   7.69168e-10 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.918220     2A     -0.915960  
+
+    Virtual:                                                              
+
+       3A      0.158808     4A      0.208846     5A      0.478776  
+       6A      0.520069     7A      0.520069     8A      0.540917  
+       9A      0.540917    10A      0.629425    11A      1.729300  
+      12A      1.730664    13A      2.984601    14A      3.017557  
+      15A      3.017557    16A      3.032537    17A      3.032537  
+      18A      3.103256  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -5.71140979084306
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.6512950259569230
+    One-Electron Energy =                  -9.0570490216443424
+    Two-Electron Energy =                   2.6943442048443580
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -5.7114097908430619
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    12.2832
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:   -12.2832
+
+  Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    -0.0000     Total:     0.0000
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:     0.0000      Z:    -0.0000     Total:     0.0000
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:08 2017
+Module time:
+	user time   =       2.03 seconds =       0.03 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =      42.56 seconds =       0.71 minutes
+	system time =       0.93 seconds =       0.02 minutes
+	total time  =         11 seconds =       0.18 minutes
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //            Monomer A HF           //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:08 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+    There are an even number of electrons - assuming singlet.
+    Specify the multiplicity in the molecule input block.
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE          0.000000000000     0.000000000000     0.000000000000     4.002603254150
+          HE(Gh)      0.000000000000     0.000000000000     3.250000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      0.39874  C =      0.39874 [cm^-1]
+  Rotational constants: A = ************  B =  11953.85352  C =  11953.85352 [MHz]
+  Nuclear repulsion =    0.000000000000000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 10
+    Number of basis function: 18
+    Number of Cartesian functions: 18
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         18      18       0       0       0       0
+   -------------------------------------------------------
+    Total      18      18       1       1       1       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.4359097082E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   0:    -2.85570466678500   -2.85570e+00   2.60510e-04 
+   @RHF iter   1:    -2.85570878733851   -4.12055e-06   3.14357e-05 
+   @RHF iter   2:    -2.85570885999765   -7.26591e-08   4.50497e-06 DIIS
+   @RHF iter   3:    -2.85570886169089   -1.69323e-09   2.20306e-07 DIIS
+   @RHF iter   4:    -2.85570886169582   -4.92983e-12   2.64195e-08 DIIS
+   @RHF iter   5:    -2.85570886169586   -4.44089e-14   5.60114e-10 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.917108  
+
+    Virtual:                                                              
+
+       2A      0.099487     3A      0.192271     4A      0.500864  
+       5A      0.528875     6A      0.528875     7A      0.604106  
+       8A      0.604106     9A      0.634843    10A      0.701255  
+      11A      1.730311    12A      3.024951    13A      3.024951  
+      14A      3.038232    15A      3.688560    16A      3.688560  
+      17A      3.710627    18A      4.550727  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -2.85570886169586
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.0000000000000000
+    One-Electron Energy =                  -3.8772022668047845
+    Two-Electron Energy =                   1.0214934051089237
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -2.8557088616958608
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0000      Y:    -0.0000      Z:    -0.0002
+
+  Dipole Moment: (a.u.)
+     X:     0.0000      Y:    -0.0000      Z:    -0.0002     Total:     0.0002
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:    -0.0000      Z:    -0.0006     Total:     0.0006
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:08 2017
+Module time:
+	user time   =       2.44 seconds =       0.04 minutes
+	system time =       0.05 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      45.02 seconds =       0.75 minutes
+	system time =       0.98 seconds =       0.02 minutes
+	total time  =         11 seconds =       0.18 minutes
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //            Monomer B HF           //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:08 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+    There are an even number of electrons - assuming singlet.
+    Specify the multiplicity in the molecule input block.
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE(Gh)      0.000000000000     0.000000000000     0.000000000000     4.002603254150
+          HE          0.000000000000     0.000000000000     3.250000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      0.39874  C =      0.39874 [cm^-1]
+  Rotational constants: A = ************  B =  11953.85352  C =  11953.85352 [MHz]
+  Nuclear repulsion =    0.000000000000000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 10
+    Number of basis function: 18
+    Number of Cartesian functions: 18
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         18      18       0       0       0       0
+   -------------------------------------------------------
+    Total      18      18       1       1       1       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.4359097082E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   0:    -2.85570466678500   -2.85570e+00   2.60510e-04 
+   @RHF iter   1:    -2.85570878733851   -4.12055e-06   3.14357e-05 
+   @RHF iter   2:    -2.85570885999766   -7.26591e-08   4.50497e-06 DIIS
+   @RHF iter   3:    -2.85570886169089   -1.69323e-09   1.90791e-07 DIIS
+   @RHF iter   4:    -2.85570886169582   -4.93383e-12   1.99713e-08 DIIS
+   @RHF iter   5:    -2.85570886169587   -4.57412e-14   7.08494e-10 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.917108  
+
+    Virtual:                                                              
+
+       2A      0.099487     3A      0.192271     4A      0.500864  
+       5A      0.528875     6A      0.528875     7A      0.604106  
+       8A      0.604106     9A      0.634843    10A      0.701255  
+      11A      1.730311    12A      3.024951    13A      3.024951  
+      14A      3.038232    15A      3.688560    16A      3.688560  
+      17A      3.710627    18A      4.550727  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -2.85570886169587
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.0000000000000000
+    One-Electron Energy =                  -3.8772022668047956
+    Two-Electron Energy =                   1.0214934051089295
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -2.8557088616958661
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    12.2832
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0000      Y:    -0.0000      Z:   -12.2830
+
+  Dipole Moment: (a.u.)
+     X:     0.0000      Y:    -0.0000      Z:     0.0002     Total:     0.0002
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:    -0.0000      Z:     0.0006     Total:     0.0006
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:09 2017
+Module time:
+	user time   =       2.45 seconds =       0.04 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =      47.48 seconds =       0.79 minutes
+	system time =       1.02 seconds =       0.02 minutes
+	total time  =         12 seconds =       0.20 minutes
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ-RI
+    Role: RIFIT
+    Keyword: DF_BASIS_SAPT
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz-ri.gbs 
+
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //               SAPT0               //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:09 2017
+
+        SAPT0  
+    Ed Hohenstein
+     6 June 2009
+
+      Orbital Information
+  --------------------------
+    NSO        =        18
+    NMO        =        18
+    NRI        =        26
+    NOCC A     =         1
+    NOCC B     =         1
+    FOCC A     =         0
+    FOCC B     =         0
+    NVIR A     =        17
+    NVIR B     =        17
+
+    Elst10,r            =    -0.000073696107 [Eh]
+    Exch10              =     0.000010048163 [Eh]
+    Exch10 (S^2)        =     0.000010048094 [Eh]
+
+    Iter     Energy [mEh]          dE [mEh]         Residual      Time [s]
+       1      -0.00008506       0.000085065       0.024841671             0
+       2      -0.00009318       0.000008119       0.001537711             0
+       3      -0.00009301      -0.000000173       0.000118210             0
+       4      -0.00009302       0.000000008       0.000010037             0
+       5      -0.00009302      -0.000000000       0.000000229             0
+
+    CHF Iterations converged
+
+
+    Iter     Energy [mEh]          dE [mEh]         Residual      Time [s]
+       1      -0.00008506       0.000085065       0.024841671             0
+       2      -0.00009318       0.000008119       0.001537711             0
+       3      -0.00009301      -0.000000173       0.000118210             0
+       4      -0.00009302       0.000000008       0.000010037             0
+       5      -0.00009302      -0.000000000       0.000000229             0
+
+    CHF Iterations converged
+
+    Ind20,r (A<-B)      =    -0.000000093019 [Eh]
+    Ind20,r (B<-A)      =    -0.000000093019 [Eh]
+    Ind20,r             =    -0.000000186037 [Eh]
+    Exch-Ind20,r (A<-B) =     0.000000078957 [Eh]
+    Exch-Ind20,r (B<-A) =     0.000000078957 [Eh]
+    Exch-Ind20,r        =     0.000000157914 [Eh]
+    Disp20              =    -0.000021797708 [Eh]
+    Disp20 (SS)         =    -0.000010898854 [Eh]
+    Disp20 (OS)         =    -0.000010898854 [Eh]
+    Exch-Disp20         =     0.000000117124 [Eh]
+    Exch-Disp20 (SS)    =     0.000000065177 [Eh]
+    Exch-Disp20 (OS)    =     0.000000051947 [Eh]
+
+    SAPT Results 
+  --------------------------------------------------------------------------------------------------------
+    Electrostatics                 -0.07369611 [mEh]      -0.04624501 [kcal/mol]      -0.19348913 [kJ/mol]
+      Elst10,r                     -0.07369611 [mEh]      -0.04624501 [kcal/mol]      -0.19348913 [kJ/mol]
+
+    Exchange                        0.01004816 [mEh]       0.00630532 [kcal/mol]       0.02638145 [kJ/mol]
+      Exch10                        0.01004816 [mEh]       0.00630532 [kcal/mol]       0.02638145 [kJ/mol]
+      Exch10(S^2)                   0.01004809 [mEh]       0.00630527 [kcal/mol]       0.02638127 [kJ/mol]
+
+    Induction                       0.07158049 [mEh]       0.04491744 [kcal/mol]       0.18793458 [kJ/mol]
+      Ind20,r                      -0.00018604 [mEh]      -0.00011674 [kcal/mol]      -0.00048844 [kJ/mol]
+      Exch-Ind20,r                  0.00015791 [mEh]       0.00009909 [kcal/mol]       0.00041460 [kJ/mol]
+      delta HF,r (2)                0.07160862 [mEh]       0.04493509 [kcal/mol]       0.18800842 [kJ/mol]
+
+    Dispersion                     -0.02168058 [mEh]      -0.01360477 [kcal/mol]      -0.05692237 [kJ/mol]
+      Disp20                       -0.02179771 [mEh]      -0.01367827 [kcal/mol]      -0.05722988 [kJ/mol]
+      Exch-Disp20                   0.00011712 [mEh]       0.00007350 [kcal/mol]       0.00030751 [kJ/mol]
+      Disp20 (SS)                  -0.01089885 [mEh]      -0.00683913 [kcal/mol]      -0.02861494 [kJ/mol]
+      Disp20 (OS)                  -0.01089885 [mEh]      -0.00683913 [kcal/mol]      -0.02861494 [kJ/mol]
+      Exch-Disp20 (SS)              0.00006518 [mEh]       0.00004090 [kcal/mol]       0.00017112 [kJ/mol]
+      Exch-Disp20 (OS)              0.00005195 [mEh]       0.00003260 [kcal/mol]       0.00013639 [kJ/mol]
+
+  Total HF                          0.00793255 [mEh]       0.00497775 [kcal/mol]       0.02082691 [kJ/mol]
+  Total SAPT0                      -0.01374804 [mEh]      -0.00862702 [kcal/mol]      -0.03609547 [kJ/mol]
+
+  Special recipe for scaled SAPT0 (see Manual):
+    Electrostatics sSAPT0          -0.07369611 [mEh]      -0.04624501 [kcal/mol]      -0.19348913 [kJ/mol]
+    Exchange sSAPT0                 0.01004816 [mEh]       0.00630532 [kcal/mol]       0.02638145 [kJ/mol]
+    Induction sSAPT0                0.07158050 [mEh]       0.04491744 [kcal/mol]       0.18793459 [kJ/mol]
+    Dispersion sSAPT0              -0.02168058 [mEh]      -0.01360477 [kcal/mol]      -0.05692237 [kJ/mol]
+  Total sSAPT0                     -0.01374803 [mEh]      -0.00862702 [kcal/mol]      -0.03609545 [kJ/mol]
+  --------------------------------------------------------------------------------------------------------
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:09 2017
+Module time:
+	user time   =       0.42 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      48.01 seconds =       0.80 minutes
+	system time =       1.03 seconds =       0.02 minutes
+	total time  =         12 seconds =       0.20 minutes
+
+
+  Variable Map:
+  ----------------------------------------------------------------------------
+  "CURRENT DIPOLE X"                  =>       0.000000000000
+  "CURRENT DIPOLE Y"                  =>      -0.000000000000
+  "CURRENT DIPOLE Z"                  =>       0.000575843358
+  "CURRENT ENERGY"                    =>      -0.000013748035
+  "CURRENT REFERENCE ENERGY"          =>      -2.855708861696
+  "HF TOTAL ENERGY"                   =>      -2.855708861696
+  "NUCLEAR REPULSION ENERGY"          =>       0.000000000000
+  "ONE-ELECTRON ENERGY"               =>      -3.877202266805
+  "PCM POLARIZATION ENERGY"           =>       0.000000000000
+  "SAPT ALPHA"                        =>       0.000000000000
+  "SAPT CT ENERGY"                    =>      -0.000000028123
+  "SAPT DISP ENERGY"                  =>      -0.000021680584
+  "SAPT DISP20 ENERGY"                =>      -0.000021797708
+  "SAPT ELST ENERGY"                  =>      -0.000073696107
+  "SAPT ELST10,R ENERGY"              =>      -0.000073696107
+  "SAPT ENERGY"                       =>       0.000000000000
+  "SAPT EXCH ENERGY"                  =>       0.000010048163
+  "SAPT EXCH-DISP20 ENERGY"           =>       0.000000117124
+  "SAPT EXCH-IND20,R ENERGY"          =>       0.000000157914
+  "SAPT EXCH10 ENERGY"                =>       0.000010048163
+  "SAPT EXCH10(S^2) ENERGY"           =>       0.000010048094
+  "SAPT EXCHSCAL"                     =>       1.000000000000
+  "SAPT EXCHSCAL1"                    =>       1.000006880131
+  "SAPT EXCHSCAL3"                    =>       1.000020640535
+  "SAPT HF TOTAL ENERGY"              =>       0.000007932549
+  "SAPT HF(2) ALPHA=0.0 ENERGY"       =>       0.000071608616
+  "SAPT HF(2) ENERGY"                 =>       0.000071608616
+  "SAPT IND ENERGY"                   =>       0.000071580493
+  "SAPT IND20,R ENERGY"               =>      -0.000000186037
+  "SAPT SAME-SPIN DISP20 ENERGY"      =>      -0.000010898854
+  "SAPT SAME-SPIN EXCH-DISP20 ENERGY" =>       0.000000065177
+  "SAPT TOTAL ENERGY"                 =>      -0.000013748035
+  "SAPT0 DISP ENERGY"                 =>      -0.000021680584
+  "SAPT0 ELST ENERGY"                 =>      -0.000073696107
+  "SAPT0 EXCH ENERGY"                 =>       0.000010048163
+  "SAPT0 IND ENERGY"                  =>       0.000071580493
+  "SAPT0 TOTAL ENERGY"                =>      -0.000013748035
+  "SAPT2 DISP ENERGY"                 =>      -0.000021680584
+  "SCF DIPOLE X"                      =>       0.000000000000
+  "SCF DIPOLE Y"                      =>      -0.000000000000
+  "SCF DIPOLE Z"                      =>       0.000575843358
+  "SCF ITERATION ENERGY"              =>      -2.855708861696
+  "SCF ITERATIONS"                    =>       5.000000000000
+  "SCF TOTAL ENERGY"                  =>      -2.855708861696
+  "SCS-SAPT0 DISP ENERGY"             =>      -0.000020166515
+  "SCS-SAPT0 ELST ENERGY"             =>      -0.000073696107
+  "SCS-SAPT0 EXCH ENERGY"             =>       0.000010048163
+  "SCS-SAPT0 IND ENERGY"              =>       0.000071580493
+  "SCS-SAPT0 TOTAL ENERGY"            =>      -0.000012233967
+  "SSAPT0 DISP ENERGY"                =>      -0.000021680582
+  "SSAPT0 ELST ENERGY"                =>      -0.000073696107
+  "SSAPT0 EXCH ENERGY"                =>       0.000010048163
+  "SSAPT0 IND ENERGY"                 =>       0.000071580496
+  "SSAPT0 TOTAL ENERGY"               =>      -0.000013748030
+  "TWO-ELECTRON ENERGY"               =>       1.021493405109
+
+
+
+
+   ===> N-Body Interaction Abacus <===
+        BSSE Treatment:                     nocp
+        Number of 1-body computations:     2
+        Number of 2-body computations:     1
+
+   ==> N-Body: Now computing 1-body complexes <==
+
+
+       N-Body: Computing complex (1/2) with fragments (2,) in the basis of fragments (2,).
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:09 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE          0.000000000000     0.000000000000     3.250000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      0.39874  C =      0.39874 [cm^-1]
+  Rotational constants: A = ************  B =  11953.85352  C =  11953.85352 [MHz]
+  Nuclear repulsion =    0.000000000000000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is CORE.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 5
+    Number of basis function: 9
+    Number of Cartesian functions: 9
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A          9       9       0       0       0       0
+   -------------------------------------------------------
+    Total       9       9       1       1       1       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.7542681229E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Core (One-Electron) Hamiltonian.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   1:    -2.74255292926218   -2.74255e+00   9.23735e-02 
+   @RHF iter   2:    -2.85463412026630   -1.12081e-01   9.81514e-03 DIIS
+   @RHF iter   3:    -2.85569537465371   -1.06125e-03   6.99872e-04 DIIS
+   @RHF iter   4:    -2.85570465313322   -9.27848e-06   2.89963e-05 DIIS
+   @RHF iter   5:    -2.85570466771038   -1.45772e-08   5.94361e-08 DIIS
+   @RHF iter   6:    -2.85570466771043   -4.70735e-14   5.70309e-11 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.917124  
+
+    Virtual:                                                              
+
+       2A      0.174366     3A      0.530376     4A      0.530376  
+       5A      0.530376     6A      1.713453     7A      3.024883  
+       8A      3.024883     9A      3.024883  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -2.85570466771043
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.0000000000000000
+    One-Electron Energy =                  -3.8771613653691026
+    Two-Electron Energy =                   1.0214566976586712
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -2.8557046677104312
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    12.2832
+
+  Electronic Dipole Moment: (a.u.)
+     X:    -0.0000      Y:    -0.0000      Z:   -12.2832
+
+  Dipole Moment: (a.u.)
+     X:    -0.0000      Y:    -0.0000      Z:    -0.0000     Total:     0.0000
+
+  Dipole Moment: (Debye)
+     X:    -0.0000      Y:    -0.0000      Z:    -0.0000     Total:     0.0000
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:09 2017
+Module time:
+	user time   =       1.28 seconds =       0.02 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      49.32 seconds =       0.82 minutes
+	system time =       1.07 seconds =       0.02 minutes
+	total time  =         12 seconds =       0.20 minutes
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:09 2017
+
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //               DFMP2               //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: RIFIT
+    Keyword: DF_BASIS_MP2
+    atoms 1 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz-ri.gbs 
+
+	 --------------------------------------------------------
+	                          DF-MP2                         
+	      2nd-Order Density-Fitted Moller-Plesset Theory     
+	              RMP2 Wavefunction,   4 Threads             
+	                                                         
+	        Rob Parrish, Justin Turney, Andy Simmonett,      
+	           Ed Hohenstein, and C. David Sherrill          
+	 --------------------------------------------------------
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-RI
+    Number of shells: 7
+    Number of basis function: 13
+    Number of Cartesian functions: 13
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+	 --------------------------------------------------------
+	                 NBF =     9, NAUX =    13
+	 --------------------------------------------------------
+	   CLASS    FOCC     OCC    AOCC    AVIR     VIR    FVIR
+	   PAIRS       0       1       1       8       8       0
+	 --------------------------------------------------------
+
+	-----------------------------------------------------------
+	 ==================> DF-MP2 Energies <==================== 
+	-----------------------------------------------------------
+	 Reference Energy          =      -2.8557046677104312 [Eh]
+	 Singles Energy            =      -0.0000000000000000 [Eh]
+	 Same-Spin Energy          =       0.0000000000000000 [Eh]
+	 Opposite-Spin Energy      =      -0.0269582691982408 [Eh]
+	 Correlation Energy        =      -0.0269582691982408 [Eh]
+	 Total Energy              =      -2.8826629369086718 [Eh]
+	-----------------------------------------------------------
+	 ================> DF-SCS-MP2 Energies <================== 
+	-----------------------------------------------------------
+	 SCS Same-Spin Scale       =       0.3333333333333333 [-]
+	 SCS Opposite-Spin Scale   =       1.2000000000000000 [-]
+	 SCS Same-Spin Energy      =       0.0000000000000000 [Eh]
+	 SCS Opposite-Spin Energy  =      -0.0323499230378890 [Eh]
+	 SCS Correlation Energy    =      -0.0323499230378890 [Eh]
+	 SCS Total Energy          =      -2.8880545907483204 [Eh]
+	-----------------------------------------------------------
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:09 2017
+Module time:
+	user time   =       0.40 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      49.72 seconds =       0.83 minutes
+	system time =       1.08 seconds =       0.02 minutes
+	total time  =         12 seconds =       0.20 minutes
+
+       N-Body: Complex Energy (fragments = (2,), basis = (2,):    -2.88266293690867)
+
+       N-Body: Computing complex (2/2) with fragments (1,) in the basis of fragments (1,).
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:09 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE          0.000000000000     0.000000000000     0.000000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B = ************  C = ************ [cm^-1]
+  Rotational constants: A = ************  B = ************  C = ************ [MHz]
+  Nuclear repulsion =    0.000000000000000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 2
+  Nalpha       = 1
+  Nbeta        = 1
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is CORE.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 5
+    Number of basis function: 9
+    Number of Cartesian functions: 9
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A          9       9       0       0       0       0
+   -------------------------------------------------------
+    Total       9       9       1       1       1       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.7542681229E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Core (One-Electron) Hamiltonian.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   1:    -2.74255292926218   -2.74255e+00   1.13134e-01 
+   @RHF iter   2:    -2.85463412026629   -1.12081e-01   8.01403e-03 DIIS
+   @RHF iter   3:    -2.85569537465370   -1.06125e-03   6.99872e-04 DIIS
+   @RHF iter   4:    -2.85570465313322   -9.27848e-06   2.89963e-05 DIIS
+   @RHF iter   5:    -2.85570466771038   -1.45772e-08   5.94361e-08 DIIS
+   @RHF iter   6:    -2.85570466771043   -4.70735e-14   4.65654e-11 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.917124  
+
+    Virtual:                                                              
+
+       2A      0.174366     3A      0.530376     4A      0.530376  
+       5A      0.530376     6A      1.713453     7A      3.024883  
+       8A      3.024883     9A      3.024883  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     1 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -2.85570466771043
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.0000000000000000
+    One-Electron Energy =                  -3.8771613653690968
+    Two-Electron Energy =                   1.0214566976586683
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -2.8557046677104285
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:     0.0000
+
+  Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:10 2017
+Module time:
+	user time   =       1.47 seconds =       0.02 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =      51.22 seconds =       0.85 minutes
+	system time =       1.11 seconds =       0.02 minutes
+	total time  =         13 seconds =       0.22 minutes
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:10 2017
+
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //               DFMP2               //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: RIFIT
+    Keyword: DF_BASIS_MP2
+    atoms 1 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz-ri.gbs 
+
+	 --------------------------------------------------------
+	                          DF-MP2                         
+	      2nd-Order Density-Fitted Moller-Plesset Theory     
+	              RMP2 Wavefunction,   4 Threads             
+	                                                         
+	        Rob Parrish, Justin Turney, Andy Simmonett,      
+	           Ed Hohenstein, and C. David Sherrill          
+	 --------------------------------------------------------
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-RI
+    Number of shells: 7
+    Number of basis function: 13
+    Number of Cartesian functions: 13
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+	 --------------------------------------------------------
+	                 NBF =     9, NAUX =    13
+	 --------------------------------------------------------
+	   CLASS    FOCC     OCC    AOCC    AVIR     VIR    FVIR
+	   PAIRS       0       1       1       8       8       0
+	 --------------------------------------------------------
+
+	-----------------------------------------------------------
+	 ==================> DF-MP2 Energies <==================== 
+	-----------------------------------------------------------
+	 Reference Energy          =      -2.8557046677104285 [Eh]
+	 Singles Energy            =      -0.0000000000000000 [Eh]
+	 Same-Spin Energy          =       0.0000000000000000 [Eh]
+	 Opposite-Spin Energy      =      -0.0269582691982408 [Eh]
+	 Correlation Energy        =      -0.0269582691982408 [Eh]
+	 Total Energy              =      -2.8826629369086691 [Eh]
+	-----------------------------------------------------------
+	 ================> DF-SCS-MP2 Energies <================== 
+	-----------------------------------------------------------
+	 SCS Same-Spin Scale       =       0.3333333333333333 [-]
+	 SCS Opposite-Spin Scale   =       1.2000000000000000 [-]
+	 SCS Same-Spin Energy      =       0.0000000000000000 [Eh]
+	 SCS Opposite-Spin Energy  =      -0.0323499230378889 [Eh]
+	 SCS Correlation Energy    =      -0.0323499230378889 [Eh]
+	 SCS Total Energy          =      -2.8880545907483173 [Eh]
+	-----------------------------------------------------------
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:10 2017
+Module time:
+	user time   =       0.42 seconds =       0.01 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      51.64 seconds =       0.86 minutes
+	system time =       1.11 seconds =       0.02 minutes
+	total time  =         13 seconds =       0.22 minutes
+
+       N-Body: Complex Energy (fragments = (1,), basis = (1,):    -2.88266293690867)
+
+   ==> N-Body: Now computing 2-body complexes <==
+
+
+       N-Body: Computing complex (1/1) with fragments (1, 2) in the basis of fragments (1, 2).
+
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:10 2017
+
+   => Loading Basis Set <=
+
+    Name: AUG-CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, and Andy Simmonett
+                              RHF Reference
+                        4 Threads,   1907 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+          HE          0.000000000000     0.000000000000     0.000000000000     4.002603254150
+          HE          0.000000000000     0.000000000000     3.250000000000     4.002603254150
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      0.39874  C =      0.39874 [cm^-1]
+  Rotational constants: A = ************  B =  11953.85352  C =  11953.85352 [MHz]
+  Nuclear repulsion =    0.651295025956923
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DIRECT.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: AUG-CC-PVDZ
+    Blend: AUG-CC-PVDZ
+    Number of shells: 10
+    Number of basis function: 18
+    Number of Cartesian functions: 18
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         18      18       0       0       0       0
+   -------------------------------------------------------
+    Total      18      18       2       2       2       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DirectJK: Integral-Direct J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Integrals threads:           4
+    Schwarz Cutoff:          1E-12
+
+  Minimum eigenvalue in the overlap matrix is 1.4359097082E-01.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter   0:    -5.71142137298737   -5.71142e+00   4.27100e-04 
+   @RHF iter   1:    -5.71140968564124    1.16873e-05   3.22366e-05 
+   @RHF iter   2:    -5.71140978863676   -1.02996e-07   4.80641e-06 DIIS
+   @RHF iter   3:    -5.71140979083827   -2.20150e-09   2.42419e-07 DIIS
+   @RHF iter   4:    -5.71140979084299   -4.72244e-12   3.10104e-08 DIIS
+   @RHF iter   5:    -5.71140979084306   -7.19425e-14   6.66119e-10 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -0.918220     2A     -0.915960  
+
+    Virtual:                                                              
+
+       3A      0.158808     4A      0.208846     5A      0.478776  
+       6A      0.520069     7A      0.520069     8A      0.540917  
+       9A      0.540917    10A      0.629425    11A      1.729300  
+      12A      1.730664    13A      2.984601    14A      3.017557  
+      15A      3.017557    16A      3.032537    17A      3.032537  
+      18A      3.103256  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+
+  Energy converged.
+
+  @RHF Final Energy:    -5.71140979084306
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.6512950259569230
+    One-Electron Energy =                  -9.0570490216443424
+    Two-Electron Energy =                   2.6943442048443580
+    DFT Exchange-Correlation Energy =       0.0000000000000000
+    Empirical Dispersion Energy =           0.0000000000000000
+    PCM Polarization Energy =               0.0000000000000000
+    EFP Energy =                            0.0000000000000000
+    Total Energy =                         -5.7114097908430619
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    12.2832
+
+  Electronic Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:   -12.2832
+
+  Dipole Moment: (a.u.)
+     X:     0.0000      Y:     0.0000      Z:    -0.0000     Total:     0.0000
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:     0.0000      Z:    -0.0000     Total:     0.0000
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:10 2017
+Module time:
+	user time   =       2.03 seconds =       0.03 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      53.69 seconds =       0.89 minutes
+	system time =       1.15 seconds =       0.02 minutes
+	total time  =         13 seconds =       0.22 minutes
+
+*** tstart() called on odysseus
+*** at Tue Jun 27 21:56:10 2017
+
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //               DFMP2               //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+   => Loading Basis Set <=
+
+    Name: (AUG-CC-PVDZ AUX)
+    Role: RIFIT
+    Keyword: DF_BASIS_MP2
+    atoms 1-2 entry HE         line    49 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/aug-cc-pvdz-ri.gbs 
+
+	 --------------------------------------------------------
+	                          DF-MP2                         
+	      2nd-Order Density-Fitted Moller-Plesset Theory     
+	              RMP2 Wavefunction,   4 Threads             
+	                                                         
+	        Rob Parrish, Justin Turney, Andy Simmonett,      
+	           Ed Hohenstein, and C. David Sherrill          
+	 --------------------------------------------------------
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (AUG-CC-PVDZ AUX)
+    Blend: AUG-CC-PVDZ-RI
+    Number of shells: 14
+    Number of basis function: 26
+    Number of Cartesian functions: 26
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+	 --------------------------------------------------------
+	                 NBF =    18, NAUX =    26
+	 --------------------------------------------------------
+	   CLASS    FOCC     OCC    AOCC    AVIR     VIR    FVIR
+	   PAIRS       0       2       2      16      16       0
+	 --------------------------------------------------------
+
+	-----------------------------------------------------------
+	 ==================> DF-MP2 Energies <==================== 
+	-----------------------------------------------------------
+	 Reference Energy          =      -5.7114097908430619 [Eh]
+	 Singles Energy            =      -0.0000000000000000 [Eh]
+	 Same-Spin Energy          =      -0.0000107511824003 [Eh]
+	 Opposite-Spin Energy      =      -0.0539369354912414 [Eh]
+	 Correlation Energy        =      -0.0539476866736417 [Eh]
+	 Total Energy              =      -5.7653574775167034 [Eh]
+	-----------------------------------------------------------
+	 ================> DF-SCS-MP2 Energies <================== 
+	-----------------------------------------------------------
+	 SCS Same-Spin Scale       =       0.3333333333333333 [-]
+	 SCS Opposite-Spin Scale   =       1.2000000000000000 [-]
+	 SCS Same-Spin Energy      =      -0.0000035837274668 [Eh]
+	 SCS Opposite-Spin Energy  =      -0.0647243225894897 [Eh]
+	 SCS Correlation Energy    =      -0.0647279063169565 [Eh]
+	 SCS Total Energy          =      -5.7761376971600180 [Eh]
+	-----------------------------------------------------------
+
+
+*** tstop() called on odysseus at Tue Jun 27 21:56:11 2017
+Module time:
+	user time   =       0.47 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =      54.16 seconds =       0.90 minutes
+	system time =       1.16 seconds =       0.02 minutes
+	total time  =         14 seconds =       0.23 minutes
+
+       N-Body: Complex Energy (fragments = (1, 2), basis = (1, 2):    -5.76535747751670)
+
+   ==> N-Body: Non-Counterpoise Corrected (NoCP)  energies <==
+
+   n-Body     Total Energy [Eh]       I.E. [kcal/mol]      Delta [kcal/mol]
+        1       -5.765325873817        0.000000000000        0.000000000000
+        2       -5.765357477517       -0.019831621585       -0.019831621585
+
+   => Loading Basis Set <=
+
+    Name: STO-3G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-2 entry HE         line    24 file /home/eric/opt/apps/python/psi4conda/share/psi4/basis/sto-3g.gbs 
+
+
+
+  Variable Map:
+  ----------------------------------------------------------------------------
+  "CURRENT CORRELATION ENERGY"                    =>      -0.053947686674
+  "CURRENT DIPOLE X"                              =>       0.000000000000
+  "CURRENT DIPOLE Y"                              =>       0.000000000000
+  "CURRENT DIPOLE Z"                              =>      -0.000000000000
+  "CURRENT ENERGY"                                =>      -0.000031603699
+  "CURRENT REFERENCE ENERGY"                      =>      -5.711409790843
+  "HF TOTAL ENERGY"                               =>      -5.711409790843
+  "MP2 CORRELATION ENERGY"                        =>      -0.053947686674
+  "MP2 OPPOSITE-SPIN CORRELATION ENERGY"          =>      -0.053936935491
+  "MP2 SAME-SPIN CORRELATION ENERGY"              =>      -0.000010751182
+  "MP2 SINGLES ENERGY"                            =>      -0.000000000000
+  "MP2 TOTAL ENERGY"                              =>      -5.765357477517
+  "NOCP-CORRECTED 2-BODY INTERACTION ENERGY"      =>      -0.000031603699
+  "NON-COUNTERPOISE CORRECTED INTERACTION ENERGY" =>      -0.000031603699
+  "NON-COUNTERPOISE CORRECTED TOTAL ENERGY"       =>      -5.765357477517
+  "NUCLEAR REPULSION ENERGY"                      =>       0.651295025957
+  "ONE-ELECTRON ENERGY"                           =>      -9.057049021644
+  "PCM POLARIZATION ENERGY"                       =>       0.000000000000
+  "SCF DIPOLE X"                                  =>       0.000000000000
+  "SCF DIPOLE Y"                                  =>       0.000000000000
+  "SCF DIPOLE Z"                                  =>      -0.000000000000
+  "SCF ITERATION ENERGY"                          =>      -5.711409790843
+  "SCF ITERATIONS"                                =>       5.000000000000
+  "SCF TOTAL ENERGY"                              =>      -5.711409790843
+  "SCS-MP2 CORRELATION ENERGY"                    =>      -0.064727906317
+  "SCS-MP2 TOTAL ENERGY"                          =>      -5.776137697160
+  "TWO-ELECTRON ENERGY"                           =>       2.694344204844
+
+

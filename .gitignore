@@ -1,0 +1,5 @@
+*.html
+
+# Psi4
+timer.dat
+ijk.dat

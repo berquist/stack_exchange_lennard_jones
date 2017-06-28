@@ -1,0 +1,28 @@
+# -*- mode: python -*-
+
+from __future__ import print_function
+
+memory 2 gb
+
+min_distance = 1.449701489552 + 0.953085394995
+molecule dimer {
+1 1
+Na           0.000000000000     0.000000000000     0.000
+--
+-1 1
+Cl           0.000000000000     0.000000000000     r
+
+symmetry c1
+units angstrom
+no_reorient
+no_com
+}
+dimer.r = min_distance
+
+set {
+    basis def2-svp
+}
+
+energy('ccsd(t)')
+
+print_variables()
